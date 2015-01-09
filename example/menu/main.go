@@ -7,7 +7,7 @@ import (
 	// "gopkg.in/go-on/lib.v2/html"
 	"os"
 
-	"github.com/go-on/routerstatic/example/static/site"
+	"gopkg.in/go-on/routerstatic.v0/example/static/site"
 	"gopkg.in/go-on/lib.v2/internal/menu"
 	"gopkg.in/go-on/lib.v2/internal/menu/menuhtml"
 	"gopkg.in/go-on/lib.v2/types"

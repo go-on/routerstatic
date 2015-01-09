@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-on/routerstatic/example/static/site"
+	"gopkg.in/go-on/routerstatic.v0/example/static/site"
 
-	"github.com/go-on/routerstatic"
+	"gopkg.in/go-on/routerstatic.v0"
 	"gopkg.in/go-on/router.v2/route"
 )
 
