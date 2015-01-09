@@ -31,7 +31,7 @@ func main() {
 	site.Router.Mount("/", nil)
 
 	gopath := os.Getenv("GOPATH")
-	dir := filepath.Join(gopath, "src", "github.com", "go-on", "router", "example", "static", "result")
+	dir := filepath.Join(gopath, "src", "github.com", "go-on", "routerstatic", "example", "static", "result")
 
 	os.RemoveAll(dir)
 	os.Mkdir(dir, os.FileMode(0755))
